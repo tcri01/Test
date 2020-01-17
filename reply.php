@@ -1,6 +1,6 @@
 <?php
  
-$channelAccessToken = 'LaLFpmLBs4/6vmsxIFl1z18SRLqNkYwvLOWVnNCDsxZz/Nx14i+JWPcmoQyFv4H9fKWk6mAqMKMJXLwPUckqMvTvpmENHHMGgo2JswD+k+Gpjv1rZOLAJX9l1E4obPD+aGJ9jZLi6BM7hS9Bn5l0hgdB04t89/1O/w1cDnyilFU=';
+$channelAccessToken = '';
 $password = 'join';      // user login password
 
 $bodyMsg = file_get_contents('php://input');

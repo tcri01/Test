@@ -1,8 +1,7 @@
 <?php
 $msg = (isset($_GET['msg'])) ? $_GET['msg'] : 'Hello!'; 
-$channelAccessToken = 'LaLFpmLBs4/6vmsxIFl1z18SRLqNkYwvLOWVnNCDsxZz/Nx14i+JWPcmoQyFv4H9fKWk6mAqMKMJXLwPUckqMvTvpmENHHMGgo2JswD+k+Gpjv1rZOLAJX9l1E4obPD+aGJ9jZLi6BM7hS9Bn5l0hgdB04t89/1O/w1cDnyilFU=';
-// $userId = 'U6df5fc85eeea4fa2b359777fed964d9d';
-$userId = 'Uc3c087deec751b1a89545b1e1924ff7f';
+$channelAccessToken = '';
+// $userId = '';
 
 $payload = array(
    'to'=>$userId,

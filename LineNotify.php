@@ -1,6 +1,6 @@
 <?php
 $access_token = array();
-$access_token[]="7NxkEuR9X6Abu8UbYMRswc7DACuv63ka7FwZiImlAHN";
+$access_token[]="";
 $message = (isset($_GET['msg'])) ? $_GET['msg']: 'no message';
 // $message="\r\n\rHello World!\r\n\r\n現在時刻: ".date('Y-m-d H:i:s');
 $TargetCount = count($access_token);
